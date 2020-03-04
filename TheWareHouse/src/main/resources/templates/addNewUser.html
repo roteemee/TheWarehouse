@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<link rel="stylesheet" href="registration.css" />
+<meta charset="ISO-8859-1">
+<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+<title>Timi Warehouse</title>
+
+</head>
+<body>
+	<div class="wrapper">
+		<div class="left">
+			<h3>The WareHouse</h3>
+			<img src="thewarehouse.jpg" alt="The Warehouse">
+		</div>
+		<div class="right">
+			<form class="box" action="addNewUser" method="post">
+				<div class="login">
+					<div class="input_field">
+						<input type="text" placeholder="Username" class="input50"
+							name="username" required>
+							<input type="password" placeholder="Password" class="input50"
+							name="password" required>
+					</div>
+					<div class="input_field">
+						<input class="input50" type="text" name="firstName" placeholder="First Name"
+							required />
+							<input class="input50" type="text" name="lastName" placeholder="Last Name"
+							required />
+							</div>
+					
+					<div class="input_field">
+						<input class="input" type="text" name="email" placeholder="Email" required />
+					</div>
+					
+					<div class="input_field">
+						<input class="input" type="text" name="bAddress" placeholder="Address" required />
+					</div>
+					<div>
+						<input type="submit" value="Register">
+					</div>
+					<div class="btn">
+						<a href="/">Login</a>
+					</div>
+				</div>
+				
+
+
+			</form>
+		</div>
+	</div>
+
+
+
+</body>
+</html>

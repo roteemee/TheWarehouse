@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+<title>Insert title here</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="wrapper">
+		<div class="sidebar">
+			<h2>Sidebar</h2>
+			<ul>
+				<li><a href="#">Supplier</a>
+
+
+					<ul>
+						<li><a href="addSupplier">New Supplier</a></li>
+						<li><a href="#">Delete Supplier</a></li>
+						<li><a href="#">Update a Supplier</a></li>
+						<li><a href="allSuppliers">List all Supplier</a></li>
+
+					</ul></li>
+				<li><a href="#">Items</a>
+
+					<ul>
+						<li><a href="addItem">New Item</a></li>
+						<li><a href="#">Delete Item</a></li>
+						<li><a href="#">Update an Item</a></li>
+						<li><a href="showItems">List all Items</a></li>
+
+					</ul></li>
+				<li><a href="#">Users</a>
+
+
+					<ul>
+						<li><a href="#">New User</a></li>
+						<li><a href="#">Delete User</a></li>
+						<li><a href="#">Update a User</a></li>
+						<li><a href="allUsers">List all Users</a></li>
+
+					</ul></li>
+				<li><a href="#">Purchase Order</a>
+
+					<ul>
+						<li><a href="addPO">New PO</a></li>
+						<li><a href="#">Delete PO</a></li>
+						<li><a href="#">Update a PO</a></li>
+						<li><a href="showPO">List all POs</a></li>
+
+					</ul></li>
+				<li><a href="#">Item Categories</a>
+
+					<ul>
+						<li><a href="addItemCat">New Item Category</a></li>
+						<li><a href="#">Delete Item Category</a></li>
+						<li><a href="#">Update an Item Category</a></li>
+						<li><a href="showItemCat">List all Item Categories</a></li>
+
+					</ul></li>
+				<li><a href="#">Brand</a>
+
+					<ul>
+						<li><a href="addBrand">New Brand</a></li>
+						<li><a href="#">Delete Brand</a></li>
+						<li><a href="#">Update a Brand</a></li>
+						<li><a href="showBrands">List all Brands</a></li>
+
+					</ul></li>
+
+			</ul>
+
+		</div>
+		<div class="main_content">
+			<h1>Add a new Brand</h1>
+			<form action="addBrand" method="post">
+		<table>
+			<tr>
+				<td>Short Name:</td>
+				<td><input type="text" name="short_name" /></td>
+			</tr>
+			<tr>
+				<td>Full Name:</td>
+				<td><input type="text" name="full_name" /></td>
+			</tr>
+
+
+		</table>
+		<input type="submit" value="Add Brand" />
+	</form>
+
+		</div>
+		
+		
+	</div>
+
+
+
+	
+
+
+</body>
+</html>
